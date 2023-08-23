@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    height: auto;
+    width: 100%;
+  
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.main-container{
+    background-color: #daf1b5;
+    border: 10px solid #b646b6;
+    border-radius: 20px;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: flex-end;
+}
+.img,img{
+    height: 300px;
+    width: 300px;
+    border-radius: 40%;
+}
+
+
+.text h1{
+    text-transform: uppercase;
+    color: chocolate;
+}
+.text h4{
+    text-align: end;
+    color: crimson;
+}
+.about{
+    margin-top: 20px;
+}
+.about h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: rgb(25, 7, 128);
+}
+.about p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+.about p::first-letter{
+    font-size: 60px;
+    color: red;
+}
+.biography{
+    margin-top: 30px;
+}
+.biography h3{
+    font-size: 30px;
+}
+.biography ul li{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+footer{
+    margin: 20px 0;
+    
+    
+}
+footer p{
+    text-align: end;
+    font-size: 20px;
+    color:tomato;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
