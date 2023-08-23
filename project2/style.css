@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: tahoma;
+}
+
+.main-container{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(190, 190, 236);
+}
+.container{
+    /* border: 10px dashed black; */
+    height: 96%;
+    width: 50%;    
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 5px;
+
+}
+h1{
+    margin: 30px 20px;
+    font-size: 30px;
+}
+span{
+    font-size: 20px;
+}
+.two-box{
+   display: flex;
+   justify-content: space-around;
+   
+}
+label{
+color: #000;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+}
+#address{
+    width: 650px;
+    height: 80px;
+}
+
+.box input{
+     height: 40px;
+     width: 300px;
+     margin-top: 10px;
+     border-radius: 5px;
+}
+#jobrole,#file{
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+}
+#btn{
+    margin-left: 300px;
+    margin-top:20px;
+   
+}
+#btn input{
+    color: white;
+    background-color: crimson;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+#file{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 20px;
+    height: 40px;
+}
+#file input{
+    padding: 1px;
+}
+input{
+    padding: 10px;
+}
+#jobrole{
+    border: 2px solid black;
+    border-radius: 5px;
+}
